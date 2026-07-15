@@ -31,14 +31,14 @@
         "type": "input",
         "messageKey": "TimeX",
         "label": "X Position",
-        "defaultValue": 0,
+        "defaultValue": 81,
         "attributes": { "type": "number", "min": 0, "max": 200 }
       },
       {
         "type": "input",
         "messageKey": "TimeY",
         "label": "Y Position",
-        "defaultValue": 40,
+        "defaultValue": 178,
         "attributes": { "type": "number", "min": 0, "max": 228 }
       },
       {
@@ -47,6 +47,39 @@
         "label": "Text Color",
         "defaultValue": "0x000000",
         "sunlight": true
+      },
+      {
+        "type": "select",
+        "messageKey": "TimeFont",
+        "label": "Font Style",
+        "defaultValue": "22",
+        "options": [
+          { "label": "GOTHIC 14", "value": "0" },
+          { "label": "GOTHIC 14 BOLD", "value": "1" },
+          { "label": "GOTHIC 18", "value": "2" },
+          { "label": "GOTHIC 18 BOLD", "value": "3" },
+          { "label": "GOTHIC 24", "value": "4" },
+          { "label": "GOTHIC 24 BOLD", "value": "5" },
+          { "label": "GOTHIC 28", "value": "6" },
+          { "label": "GOTHIC 28 BOLD", "value": "7" },
+          { "label": "BITHAM 30 BLACK", "value": "8" },
+          { "label": "BITHAM 34 MEDIUM NUMBERS", "value": "9" },
+          { "label": "BITHAM 42 BOLD", "value": "10" },
+          { "label": "BITHAM 42 LIGHT", "value": "11" },
+          { "label": "BITHAM 42 MEDIUM NUMBERS", "value": "12" },
+          { "label": "ROBOTO CONDENSED 21", "value": "13" },
+          { "label": "ROBOTO BOLD SUBSET 49", "value": "14" },
+          { "label": "DROID SERIF 28 BOLD", "value": "15" },
+          { "label": "LECO 20 BOLD NUMBERS", "value": "16" },
+          { "label": "LECO 26 BOLD NUMBERS AM/PM", "value": "17" },
+          { "label": "LECO 28 LIGHT NUMBERS", "value": "18" },
+          { "label": "LECO 32 BOLD NUMBERS", "value": "19" },
+          { "label": "LECO 36 BOLD NUMBERS", "value": "20" },
+          { "label": "LECO 38 BOLD NUMBERS", "value": "21" },
+          { "label": "LECO 42 NUMBERS", "value": "22" },
+          { "label": "LECO 60 NUMBERS AM/PM", "value": "23" },
+          { "label": "LECO 60 BOLD NUMBERS AM/PM", "value": "24" }
+        ]
       }
     ]
   },
@@ -61,14 +94,14 @@
         "type": "input",
         "messageKey": "DateX",
         "label": "X Position",
-        "defaultValue": 0,
+        "defaultValue": 159,
         "attributes": { "type": "number", "min": 0, "max": 200 }
       },
       {
         "type": "input",
         "messageKey": "DateY",
         "label": "Y Position",
-        "defaultValue": 110,
+        "defaultValue": 116,
         "attributes": { "type": "number", "min": 0, "max": 228 }
       },
       {
@@ -77,6 +110,39 @@
         "label": "Text Color",
         "defaultValue": "0x000000",
         "sunlight": true
+      },
+      {
+        "type": "select",
+        "messageKey": "DateFont",
+        "label": "Font Style",
+        "defaultValue": "19",
+        "options": [
+          { "label": "GOTHIC 14", "value": "0" },
+          { "label": "GOTHIC 14 BOLD", "value": "1" },
+          { "label": "GOTHIC 18", "value": "2" },
+          { "label": "GOTHIC 18 BOLD", "value": "3" },
+          { "label": "GOTHIC 24", "value": "4" },
+          { "label": "GOTHIC 24 BOLD", "value": "5" },
+          { "label": "GOTHIC 28", "value": "6" },
+          { "label": "GOTHIC 28 BOLD", "value": "7" },
+          { "label": "BITHAM 30 BLACK", "value": "8" },
+          { "label": "BITHAM 34 MEDIUM NUMBERS", "value": "9" },
+          { "label": "BITHAM 42 BOLD", "value": "10" },
+          { "label": "BITHAM 42 LIGHT", "value": "11" },
+          { "label": "BITHAM 42 MEDIUM NUMBERS", "value": "12" },
+          { "label": "ROBOTO CONDENSED 21", "value": "13" },
+          { "label": "ROBOTO BOLD SUBSET 49", "value": "14" },
+          { "label": "DROID SERIF 28 BOLD", "value": "15" },
+          { "label": "LECO 20 BOLD NUMBERS", "value": "16" },
+          { "label": "LECO 26 BOLD NUMBERS AM/PM", "value": "17" },
+          { "label": "LECO 28 LIGHT NUMBERS", "value": "18" },
+          { "label": "LECO 32 BOLD NUMBERS", "value": "19" },
+          { "label": "LECO 36 BOLD NUMBERS", "value": "20" },
+          { "label": "LECO 38 BOLD NUMBERS", "value": "21" },
+          { "label": "LECO 42 NUMBERS", "value": "22" },
+          { "label": "LECO 60 NUMBERS AM/PM", "value": "23" },
+          { "label": "LECO 60 BOLD NUMBERS AM/PM", "value": "24" }
+        ]
       }
     ]
   },
@@ -91,14 +157,14 @@
         "type": "input",
         "messageKey": "DayX",
         "label": "X Position",
-        "defaultValue": 0,
+        "defaultValue": 151,
         "attributes": { "type": "number", "min": 0, "max": 200 }
       },
       {
         "type": "input",
         "messageKey": "DayY",
         "label": "Y Position",
-        "defaultValue": 160,
+        "defaultValue": 84,
         "attributes": { "type": "number", "min": 0, "max": 228 }
       },
       {
@@ -107,6 +173,27 @@
         "label": "Text Color",
         "defaultValue": "0x000000",
         "sunlight": true
+      },
+      {
+        "type": "select",
+        "messageKey": "DayFont",
+        "label": "Font Style",
+        "defaultValue": "7",
+        "options": [
+          { "label": "GOTHIC 14", "value": "0" },
+          { "label": "GOTHIC 14 BOLD", "value": "1" },
+          { "label": "GOTHIC 18", "value": "2" },
+          { "label": "GOTHIC 18 BOLD", "value": "3" },
+          { "label": "GOTHIC 24", "value": "4" },
+          { "label": "GOTHIC 24 BOLD", "value": "5" },
+          { "label": "GOTHIC 28", "value": "6" },
+          { "label": "GOTHIC 28 BOLD", "value": "7" },
+          { "label": "BITHAM 30 BLACK", "value": "8" },
+          { "label": "BITHAM 42 BOLD", "value": "10" },
+          { "label": "BITHAM 42 LIGHT", "value": "11" },
+          { "label": "ROBOTO CONDENSED 21", "value": "13" },
+          { "label": "DROID SERIF 28 BOLD", "value": "15" }
+        ]
       }
     ]
   },

@@ -21,7 +21,10 @@
             "DayY",
             "TimeColor",
             "DateColor",
-            "DayColor"
+            "DayColor",
+            "TimeFont",
+            "DateFont",
+            "DayFont"
         ],
         "projectType": "native",
         "resources": {
@@ -29,6 +32,15 @@
                 {
                     "file": "images/IMAGE_OVERLAY",
                     "name": "IMAGE_OVERLAY",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ICON",
+                    "menuIcon": true,
+                    "name": "ICON",
                     "targetPlatforms": [
                         "emery"
                     ],
@@ -45,5 +57,5 @@
             "watchface": true
         }
     },
-    "version": "1.0.0"
+    "version": "1.1.0"
 }
