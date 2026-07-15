@@ -1,0 +1,117 @@
+[
+  {
+    "type": "heading",
+    "id": "main-heading",
+    "defaultValue": "Watchface Settings"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Background Settings"
+      },
+      {
+        "type": "color",
+        "messageKey": "BackgroundColor",
+        "label": "Background Color",
+        "defaultValue": "0x00FFFF",
+        "sunlight": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Time Settings"
+      },
+      {
+        "type": "input",
+        "messageKey": "TimeX",
+        "label": "X Position",
+        "defaultValue": 0,
+        "attributes": { "type": "number", "min": 0, "max": 200 }
+      },
+      {
+        "type": "input",
+        "messageKey": "TimeY",
+        "label": "Y Position",
+        "defaultValue": 40,
+        "attributes": { "type": "number", "min": 0, "max": 228 }
+      },
+      {
+        "type": "color",
+        "messageKey": "TimeColor",
+        "label": "Text Color",
+        "defaultValue": "0x000000",
+        "sunlight": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Date Settings"
+      },
+      {
+        "type": "input",
+        "messageKey": "DateX",
+        "label": "X Position",
+        "defaultValue": 0,
+        "attributes": { "type": "number", "min": 0, "max": 200 }
+      },
+      {
+        "type": "input",
+        "messageKey": "DateY",
+        "label": "Y Position",
+        "defaultValue": 110,
+        "attributes": { "type": "number", "min": 0, "max": 228 }
+      },
+      {
+        "type": "color",
+        "messageKey": "DateColor",
+        "label": "Text Color",
+        "defaultValue": "0x000000",
+        "sunlight": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Day Settings"
+      },
+      {
+        "type": "input",
+        "messageKey": "DayX",
+        "label": "X Position",
+        "defaultValue": 0,
+        "attributes": { "type": "number", "min": 0, "max": 200 }
+      },
+      {
+        "type": "input",
+        "messageKey": "DayY",
+        "label": "Y Position",
+        "defaultValue": 160,
+        "attributes": { "type": "number", "min": 0, "max": 228 }
+      },
+      {
+        "type": "color",
+        "messageKey": "DayColor",
+        "label": "Text Color",
+        "defaultValue": "0x000000",
+        "sunlight": true
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]

@@ -1,0 +1,49 @@
+{
+    "author": "Parsley_fz8",
+    "dependencies": {
+        "@rebble/clay": "^1.0.10"
+    },
+    "keywords": [],
+    "name": "my-watchface",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "My Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColor",
+            "TimeX",
+            "TimeY",
+            "DateX",
+            "DateY",
+            "DayX",
+            "DayY",
+            "TimeColor",
+            "DateColor",
+            "DayColor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/IMAGE_OVERLAY",
+                    "name": "IMAGE_OVERLAY",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery"
+        ],
+        "uuid": "7efa1031-b798-4079-8fb3-cadd8b4a7e9d",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
